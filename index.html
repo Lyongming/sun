@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			.box {
+				margin-top: 200px;
+				margin-left: 400px;
+				width: 400px;
+				height: 400px;
+				border: 1px solid;
+				border-radius: 50%;
+				position: relative;
+				animation: hhhh 3s 1s linear infinite;
+			}
+			.a1 {
+				width: 100px;
+				height: 100px;
+				border-radius: 50%;
+				background-color: #FF0000;
+				position: absolute;
+				left: 150px;
+				top: 150px;
+				box-shadow: 0 0 30px red;
+				/* animation: hhhh 3s 1s linear infinite; */
+			}
+			.a2 {
+				width: 300px;
+				height: 300px;
+				border-radius: 50%;
+				border: 1px solid;
+				position: absolute;
+				top: 100px;
+				right: -100px;
+				animation: kkkk 3s linear infinite;
+				
+			}
+			.a3 {
+				height: 50px;
+				width: 50px;
+				background-color: #7FFF00;
+				border-radius: 50%;
+				position: absolute;
+				left: 50px;
+				animation: ;
+			}
+			.a4 {
+				height: 80px;
+				width: 80px;
+				background-color: #D2691E;
+				border-radius: 50%;
+				position: absolute;
+				left: 112px;
+				top: 110px;
+			}
+			@keyframes hhhh{
+				0% {
+					transform: rotate(0deg);
+				}
+				100% {
+					transform: rotate(360deg);
+				}
+			}
+			@keyframes kkkk{
+				0% {
+					transform: rotate(0deg);
+				}
+				100% {
+					transform: rotate(360deg);
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<div class="a1">
+				<div class="a2">
+					<div class="a3"></div>
+					<div class="a4"></div>
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>
